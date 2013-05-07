@@ -1,0 +1,33 @@
+$body-bg: #ededed;
+$body-font-color: #222;
+$body-font-family: 'Quantico', sans-serif;
+$primary-color: #1c157d;
+$secondary-color: #46bc00;
+$row-width: 75em;
+$block-grid-default-spacing: 15px;
+$h4-font-size: emCalc(18px);
+$h6-font-size: .8em;
+$paragraph-font-size: 0.9em;
+$anchor-font-color-hover: darken($primary-color, 20%);
+button, .button{
+	text-transform:uppercase;
+	font-weight:normal;
+}
+$button-med: emCalc(10px);
+$button-font-med: emCalc(14px);
+$button-border-width: 0px;
+$pagination-link-pad: emCalc(6px) emCalc(8px) emCalc(6px);
+$pagination-link-font-color: #666;
+$panel-bg: rgba(0,0,0,0);
+$panel-border-size: 0;
+$panel-padding: 0;
+$panel-font-color-alt: $body-font-color;
+$topbar-breakpoint: emCalc(768px); // Change to 9999px for always mobile layout 
+$topbar-media-query: "only screen and (min-width: "#{$topbar-breakpoint}")";
+
+//tables
+$table-bg: transparent;
+$table-even-row-bg: transparent;
+$table-border-size: 0px;
+$table-row-font-size: emCalc(18px);
+

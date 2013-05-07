@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Quantico:400,400italic,700,700italic);
+
+$phono-black: 'Phono Black';
+$phono-heavy: 'Phono Heavy';
+$phono-medium: 'Phono Medium';
+$phono-thin: 'Phono Thin';
+
+.phono-black{ font-family:$phono-black !important; }
+.phono-heavy{ font-family:$phono-heavy !important; }
+.phono-medium{ font-family:$phono-medium !important; }
+.phono-thin{ font-family:$phono-thin !important; }
+
+@font-face {
+	font-family: $phono-black;
+	src: url('../fonts/UNITEDSANSRGBK.eot');
+	src: local('?'), url('../fonts/UNITEDSANSRGBK.ttf') format('truetype'), url('../fonts/UNITEDSANSRGBK.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: $phono-heavy;
+	src: url('../fonts/UNITEDSANSRGHV.eot');
+	src: local('?'), url('../fonts/UNITEDSANSRGHV.ttf') format('truetype'), url('../fonts/UNITEDSANSRGHV.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: $phono-medium;
+	src: url('../fonts/UNITEDSANSRGMD_0.eot');
+	src: local('?'), url('../fonts/UNITEDSANSRGMD_0.ttf') format('truetype'), url('../fonts/UNITEDSANSRGMD_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: $phono-thin;
+	src: url('../fonts/UNITEDSANSRGTH.eot');
+	src: local('?'), url('../fonts/UNITEDSANSRGTH.ttf') format('truetype'), url('../fonts/UNITEDSANSRGTH.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+*	FONTELLO
+*/
+
+ @font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?72002426');
+  src: url('../fonts/fontello.eot?72002426#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?72002426') format('woff'),
+       url('../fonts/fontello.ttf?72002426') format('truetype'),
+       url('../fonts/fontello.svg?72002426#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+    /* Animation center compensation - magrins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-export:before { content: '\e715'; } /* '' */
+.icon-location:before { content: '\e724'; } /* '' */
+.icon-calendar:before { content: '\1f4c5'; } /* '\1f4c5' */
+.icon-clock:before { content: '\1f554'; } /* '\1f554' */
